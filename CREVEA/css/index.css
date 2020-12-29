@@ -1,0 +1,43 @@
+body {
+  padding: 0px;
+}
+
+.dash {
+  width: 2rem;
+  margin-right: 5px;
+}
+
+/*OUR BUSINESS SECTION*/
+#businessbackground {
+  background-image: url(Communication.jpg);
+}
+
+.flex {
+  display: flex;
+}
+
+.business {
+  color: white;
+}
+
+img.business {
+  position: relative;
+  left: -25px;
+  top: 13px;
+}
+
+.center {
+  text-align: center;
+  vertical-align: center;
+}
+
+/* Ipad */
+@media screen and (min-width:1024px) {
+  .move-left {
+    left: -25px;
+  }
+
+  .move-left2 {
+    left: -30px;
+  }
+}

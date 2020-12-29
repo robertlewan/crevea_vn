@@ -1,0 +1,126 @@
+/*Header*/
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+div.navbar {
+    column-count: 2;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 30px
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.cur-item {
+    color: darkorange;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*Main content*/
+div.layout {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: 0;
+}
+.heading{
+    padding-left: 300px;
+    align-content: center;
+}
+/*
+image.dash{
+    padding-top: 5px;
+}
+*/
+#businessbackground{
+    background-image:  url(https://i.imgur.com/YE6srBq.jpg);
+    background-repeat: no-repeat;
+    height: 584.141px;
+    background-size: cover;
+
+/*BUSINESS SECTION*/
+}
+.business {
+    color: white;
+}
+img#round {
+    border-radius: 50%;
+}
+span.business {
+    font-size: 30px;
+}
+.flex{
+    display: flex;
+}
+.box1{
+    align-content: center;
+    padding-top: 15px;
+    position: relative;
+    left: -25px;
+}
+
+
+/*NEWS SECTION*/
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 180px
+}
+.newsbox{
+    flex-basis: 20%;
+    border: 1px #ccc solid;
+}
+.newsimg{
+    width: 100%;
+}
+p.newstext {
+    padding: 10px;
+}
+
+/*CONTACTS SECTION*/
+.flex2 {
+    display: flex;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+#message {
+    width: 532px;
+    height: 90px;
+}
+div.center {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*FOOTER*/
+.footer-container {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-bottom: solid;
+}
+footer {
+    background-color: black;
+    color: white;
+    justify-content: flex-start;
+}
+.footer-box {
+    flex-basis: 25%;
+}
